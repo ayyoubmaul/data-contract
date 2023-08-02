@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+message Population {
+  string id_nation = 1;
+  string nation = 2;
+  int32 id_year = 3;
+  string year = 4;
+  int32 population = 5;
+  string slug_nation = 6;
+}
